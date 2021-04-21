@@ -4,7 +4,6 @@ import LOGO from './react.svg';
 import { ClickCounter } from './clickCounter';
 
 export const App = () => {
-  const name = 'Viswa';
   return (
     <>
       <img src={LOGO} height={100} alt="SVG logo" />
