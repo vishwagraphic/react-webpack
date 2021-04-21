@@ -25,7 +25,7 @@ module.exports = {
       'plugin:prettier/recommended',
     ],
     rules: {
-      'no-unused-vars': 'off',
+      'no-unused-vars': ["error", { "vars": "all", "args": "after-used", "ignoreRestSiblings": false }],
       '@typescript-eslint/no-var-requires': 'off',
       'react/prop-types': 'off',
       'react/jsx-uses-react': 'off',
